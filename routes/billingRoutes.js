@@ -1,5 +1,5 @@
 const keys = require('../config/keys');
-const stripe = require('stripe')(keys.stripSecretKey);
+const stripe = require('stripe')(keys.stripeSecretKey);
 const requireLogin = require('../middlewares/requireLogin');
 
 module.exports = app => {
@@ -17,4 +17,6 @@ module.exports = app => {
         res.send(user);
     });
 };
+
+
 
