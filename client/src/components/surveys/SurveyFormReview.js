@@ -43,4 +43,4 @@ function mapStateToProps(state) {
   return { formValues: state.form.surveyForm.values }; //formValues got all neccessary information such as title, subject, recipients, email body
 }
 
-export default connect(mapStateToProps, actions)(withRouter(SurveyFormReview))
+export default connect(mapStateToProps, actions)(withRouter(SurveyFormReview));
