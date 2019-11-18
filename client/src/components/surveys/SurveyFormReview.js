@@ -40,7 +40,7 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
 };
 
 function mapStateToProps(state) {
-  return { formValues: state.form.surveyForm.values }; //formValues got all neccessary information such as title, subject, recipients, email body
+  return { formValues: state.form.surveyForm.values };
 }
 
 export default connect(mapStateToProps, actions)(withRouter(SurveyFormReview));
