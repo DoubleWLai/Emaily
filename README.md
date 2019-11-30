@@ -31,7 +31,7 @@ Once you're all set up with some credits on your account, you can begin to send 
 
 When the survey recipient responds to your email, either positively or negatively, then the dashboard will visually update with these responses. Every few minutes the dashboard will update these values, and the end result can be something like this:
 
-![alt text](survey.png "Survey")
+![alt text](https://raw.githubusercontent.com/jamesgower/emaily/master/stripe.png)
 
 ## Technologies
 
